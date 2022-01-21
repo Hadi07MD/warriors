@@ -1,0 +1,160 @@
+
+.img1
+{
+    margin-bottom: 30px;
+}
+main{
+    margin-bottom: 20px;
+}
+.img1 img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.newsCards .card
+{
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.newsCards .card .img
+{
+    margin-right: 20px;
+    width: 25%;
+}
+
+.newsCards .card .img img
+{
+    width: 100%;
+}
+
+.newsCards .card .text
+{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsCards .card .text h3
+{
+    margin: 0;
+}
+
+.newsCards .card .text p
+{
+    margin: 5px 0;
+}
+
+.newsCards .card .text .time
+{
+    display: flex;
+    justify-content: flex-end;
+    color: #888;
+}
+
+.newsCards .card .text .time .icon
+{
+    display: flex;
+}
+
+.newsCards .card .text .time .icon img
+{
+    margin-right: 5px;
+}
+
+.newsCards button
+{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #244487;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+}
+
+.newsCards button img
+{
+    margin-left: 5px;
+}
+
+
+
+
+footer{
+    background-color: #244487;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container h3{
+    color: gold;
+    font-weight: 400;
+}
+.container li{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+}
+aside {
+    display: flex;
+    background-color: #445E93;
+}
+aside p{
+font-style: italic;
+font-weight: normal;
+font-size: 15px;
+color: #000;
+}
+aside img{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 480px) {
+    .newsCards .card
+    {
+        flex-direction: column;
+    }
+
+    .newsCards .card .img
+    {
+        width: 100%;
+    }
+
+    .newsCards .card .text
+    {
+        width: 100%;
+    }
+    nav{
+    flex-direction: column;
+    display: flex;
+   
+    }
+    
+    .footer .container{
+            display:none;
+            padding:0px;
+            margin: 0px;
+        } 
+      
+
+
+   
+
+
+
+  
+    }

@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav
+{
+    display: flex;
+    background-color: #123885;
+    color: #FDB927;
+}
+nav .logo
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+nav .navContent
+{
+    width: 80%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .navContent .profile .loginButton
+{
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 2px solid #FDB927;
+    border-radius: 5px;
+    color: #FDB927;
+    font-weight: bold;
+}
+
+nav .navContent .profile .LangButton
+{
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 2px solid #FDB927;
+    border-radius: 5px;
+    color: #FDB927;
+    font-weight: bold;
+}
+
+nav .navContent .social
+{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+nav .navContent .options ul
+{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav .navContent .options ul li
+{
+    background-color: #365492;
+    margin-right: 5px;
+    width: 25%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+    transition: .5s all ease;
+}
+
+nav .navContent .options ul li:hover
+{
+    transform: scale(1.1);
+
+}
+    section{
+        height: 2900px;
+    }
+    section h1{
+        color: #FDB927;
+        margin-left: 40px;
+        font-style: bold;
+    }
+    .div1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px 40px;
+    }
+    #first{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #second{
+        width: 300px;
+    }
+    #thirth{
+        width: 300px;
+    }
+    .div2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #green{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #curry{
+        width: 300px;
+    }
+    #klay{
+        width: 300px;
+    }
+    .div3{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #gray{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #juan{
+        width: 300px;
+    }
+    #otto{
+        width: 300px;
+    }
+    .div4{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #james{
+        width: 300px;
+        margin-left: 20px;
+    }
+    #andrew{
+        width: 300px;
+    }
+    #moses{
+        width: 300px;
+        
+    }
+    .div2{
+        margin-left: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px 40px;
+    }
+    footer{
+        background-color: #244487;
+        width: 100%;
+        height:200px;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 95%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .container h3{
+        color: gold;
+        font-weight: 400;
+    }
+    .container li{
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        list-style: none;
+    }
+    aside {
+        display: flex;
+        background-color: #445E93;
+    }
+    aside p{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    }
+    aside img{
+        width: 50px;
+        height: 50px;
+    }
